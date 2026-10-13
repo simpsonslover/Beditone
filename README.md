@@ -2,6 +2,19 @@
 
 A port of [Baritone](https://github.com/cabaletta/baritone) to Minecraft **Bedrock Edition**
 
+## How to install
+1. make sure you have the latest version of node installed
+2. copy all the files to your computer:
+```
+git clone https://github.com/simpsonslover/Beditone.git
+```
+3. open proxy/start.cmd
+4. enter your ip to proxy example: 0.0.0.0:0000
+                                      ^      ^
+                   the ip of the server    the port of the server
+
+5. join the server at 127.0.0.1 (port: 19150)
+
 ## Project layout
 
 ```
