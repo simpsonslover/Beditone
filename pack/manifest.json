@@ -1,0 +1,49 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Beditone",
+    "description": "Baritone pathfinding bot for Bedrock (port of cabaletta/baritone, LGPL-3.0). Requires the Beta APIs experiment.",
+    "uuid": "4793b31a-eb28-4b55-88de-cb7ae3ee20ba",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "8b3cfcdc-83e1-49c6-aca9-8ce965fa0c4d",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.11.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-gametest",
+      "version": "1.0.0-beta"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Beditone contributors",
+      "Baritone contributors (original)"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "url": "https://github.com/cabaletta/baritone"
+  }
+}

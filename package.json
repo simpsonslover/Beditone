@@ -1,0 +1,23 @@
+{
+  "name": "beditone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A port of Baritone (cabaletta/baritone) to Minecraft Bedrock Edition using the Script API",
+  "license": "LGPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "node build.mjs --deploy",
+    "typecheck": "tsc --noEmit",
+    "test": "node build.mjs --tests && node --test \"dist-test/**/*.test.mjs\""
+  },
+  "devDependencies": {
+    "@minecraft/server": "2.11.0-beta.1.26.52-stable",
+    "@minecraft/server-gametest": "1.0.0-beta.1.26.52-stable",
+    "@types/node": "22.20.5",
+    "esbuild": "0.28.2",
+    "minecraft-data": "3.117.0",
+    "prismarine-nbt": "2.8.0",
+    "typescript": "7.0.2"
+  }
+}

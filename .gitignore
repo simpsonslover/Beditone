@@ -1,0 +1,4 @@
+node_modules/
+dist-test/
+pack/scripts/main.js
+src/world/blockdata.generated.ts
