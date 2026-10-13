@@ -9,9 +9,7 @@ A port of [Baritone](https://github.com/cabaletta/baritone) to Minecraft **Bedro
 git clone https://github.com/simpsonslover/Beditone.git
 ```
 3. open proxy/start.cmd
-4. enter your ip to proxy example: 0.0.0.0:0000
-                                      ^      ^
-                   the ip of the server    the port of the server
+4. enter your ip to proxy, example: 0.0.0.0:0000
 
 5. join the server at 127.0.0.1 (port: 19150)
 
